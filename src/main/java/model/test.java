@@ -50,13 +50,13 @@ public class test {
 
     static int height = 224;
     static int width = 224;
-    static int nChannel = 3;
+    static int nChannel = 1;
     private static int batchSize = 8;
     private static int numClasses = 2;
 
     public static void main(String[] args) throws Exception {
 
-        File inputFile = new ClassPathResource("sign_data/").getFile();
+        File inputFile = new ClassPathResource("sign_data/train/").getFile();
         FileSplit fileSplit = new FileSplit(inputFile);
 
         PathFilter pathFilter = new BalancedPathFilter(randNumGen, allowedFormats, labelGenerator);
@@ -88,7 +88,7 @@ public class test {
         //load vgg16 zoo model
         ZooModel zooModel = VGG16.builder().build();
         ComputationGraph vgg16 = (ComputationGraph) zooModel.initPretrained();
-        log.info(vgg16.summary());
+        System.out.println(vgg16.summary());
 
         // Override the setting for all layers that are not "frozen".
         FineTuneConfiguration fineTuneConf = new FineTuneConfiguration.Builder()
@@ -100,6 +100,7 @@ public class test {
         ComputationGraph vgg16Transfer = new TransferLearning.GraphBuilder(vgg16)
                 .fineTuneConfiguration(fineTuneConf)
                 .setFeatureExtractor("fc2") //the specified layer and below are "frozen"
+                .nInReplace("block1_conv1", nChannel, WeightInit.XAVIER)
                 .removeVertexKeepConnections("predictions") //replace the functionality of the final vertex
                 .addLayer("predictions",
                         new OutputLayer.Builder(LossFunctions.LossFunction.MCXENT)
@@ -121,5 +122,8 @@ public class test {
         );
 
         vgg16Transfer.fit(trainIter, nEpoch);
+
+        System.out.println(vgg16Transfer.evaluate(trainIter).stats());
+        System.out.println(vgg16Transfer.evaluate(testIter).stats());
     }
 }
