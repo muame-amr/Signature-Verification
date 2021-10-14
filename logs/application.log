@@ -1,0 +1,322 @@
+2021-10-14 12:06:19,411 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-14 12:06:21,889 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-14 12:06:21,968 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-14 12:06:21,968 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-14 12:06:21,968 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-14 12:06:21,980 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-14 12:06:21,982 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-14 12:06:21,982 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-14 12:06:21,995 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2021-10-14 12:06:21,998 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2021-10-14 12:06:22,014 - [INFO] - from org.deeplearning4j.zoo.ZooModel in main
+                
+Using cached model at C:\Users\USER\.deeplearning4j\models\vgg16\vgg16_dl4j_inference.zip
+
+2021-10-14 12:06:22,015 - [INFO] - from org.deeplearning4j.zoo.ZooModel in main
+                
+Verifying download...
+
+2021-10-14 12:06:23,087 - [INFO] - from org.deeplearning4j.zoo.ZooModel in main
+                
+Checksum local is 3501732770, expecting 3501732770
+
+2021-10-14 12:07:39,224 - [INFO] - from org.deeplearning4j.nn.graph.ComputationGraph in main
+                
+Starting ComputationGraph with WorkspaceModes set to [training: NONE; inference: SINGLE], cacheMode set to [NONE]
+
+2021-10-14 12:07:40,513 - [INFO] - from org.deeplearning4j.nn.layers.FrozenLayer in main
+                
+Gradients for the frozen layer are not set and will therefore will not be updated.Warning will be issued only once per instance
+
+2021-10-14 12:07:43,179 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in vert.x-eventloop-thread-0
+                
+Deeplearning4j UI server started at: http://localhost:9000
+
+2021-10-14 12:07:43,194 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in main
+                
+StatsStorage instance attached to UI: InMemoryStatsStorage(uid=a5a0e988)
+
+2021-10-14 12:07:45,505 - [INFO] - from org.deeplearning4j.nn.layers.FrozenLayer in main
+                
+Frozen layer instance found! Frozen layers are treated as always in test mode. Warning will only be issued once per instance
+
+2021-10-14 12:09:31,059 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-14 12:09:33,211 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-14 12:09:33,286 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-14 12:09:33,286 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-14 12:09:33,286 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-14 12:09:33,300 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-14 12:09:33,302 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-14 12:09:33,302 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-14 12:09:33,316 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2021-10-14 12:09:33,320 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2021-10-14 12:09:33,330 - [INFO] - from org.deeplearning4j.zoo.ZooModel in main
+                
+Using cached model at C:\Users\USER\.deeplearning4j\models\vgg16\vgg16_dl4j_inference.zip
+
+2021-10-14 12:09:33,330 - [INFO] - from org.deeplearning4j.zoo.ZooModel in main
+                
+Verifying download...
+
+2021-10-14 12:09:34,354 - [INFO] - from org.deeplearning4j.zoo.ZooModel in main
+                
+Checksum local is 3501732770, expecting 3501732770
+
+2021-10-14 12:10:41,260 - [INFO] - from org.deeplearning4j.nn.graph.ComputationGraph in main
+                
+Starting ComputationGraph with WorkspaceModes set to [training: NONE; inference: SINGLE], cacheMode set to [NONE]
+
+2021-10-14 12:10:41,868 - [INFO] - from org.deeplearning4j.nn.layers.FrozenLayer in main
+                
+Gradients for the frozen layer are not set and will therefore will not be updated.Warning will be issued only once per instance
+
+2021-10-14 12:10:42,785 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in vert.x-eventloop-thread-0
+                
+Deeplearning4j UI server started at: http://localhost:9000
+
+2021-10-14 12:10:42,790 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in main
+                
+StatsStorage instance attached to UI: InMemoryStatsStorage(uid=57c39838)
+
+2021-10-14 12:10:44,706 - [INFO] - from org.deeplearning4j.nn.layers.FrozenLayer in main
+                
+Frozen layer instance found! Frozen layers are treated as always in test mode. Warning will only be issued once per instance
+
+2021-10-14 12:10:48,408 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 0.9249315857887268
+
+2021-10-14 12:10:55,325 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 5 is 0.8748049736022949
+
+2021-10-14 12:11:00,634 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 10 is 0.5642335414886475
+
+2021-10-14 12:11:06,009 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 15 is 0.8682023286819458
+
+2021-10-14 12:11:11,306 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 20 is 1.2109311819076538
+
+2021-10-14 12:11:16,620 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 25 is 0.9091044068336487
+
+2021-10-14 12:11:22,851 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 30 is 0.5317447781562805
+
+2021-10-14 12:11:30,198 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 35 is 1.3034569025039673
+
+2021-10-14 12:11:35,744 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 40 is 0.5758368372917175
+
+2021-10-14 12:11:41,370 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 45 is 0.15228793025016785
+
+2021-10-14 12:11:46,501 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 50 is 0.48989832401275635
+
+2021-10-14 12:11:51,801 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 55 is 0.9316233992576599
+
+2021-10-14 12:11:57,950 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 60 is 0.496060311794281
+
+2021-10-14 12:12:03,326 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 65 is 0.44335073232650757
+
+2021-10-14 12:12:08,482 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 70 is 0.6244816780090332
+
+2021-10-14 12:12:13,839 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 75 is 0.20211637020111084
+
+2021-10-14 12:12:19,342 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 80 is 0.5568649172782898
+
+2021-10-14 12:12:24,634 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 85 is 0.847815990447998
+
+2021-10-14 12:12:29,783 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 90 is 0.28126633167266846
+
+2021-10-14 12:12:35,101 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 95 is 0.7900525331497192
+
+2021-10-14 12:12:43,742 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 0.36347463726997375
+
+2021-10-14 12:12:49,064 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 105 is 0.7912655472755432
+
+2021-10-14 12:12:55,814 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 110 is 0.46502214670181274
+
+2021-10-14 12:13:01,093 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 115 is 0.5463150143623352
+
+2021-10-14 12:13:06,268 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 120 is 0.5586334466934204
+
+2021-10-14 12:13:11,602 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 125 is 0.5219518542289734
+
+2021-10-14 12:13:17,560 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 130 is 0.4788861572742462
+
+2021-10-14 12:13:25,468 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 135 is 1.0904264450073242
+
+2021-10-14 12:13:30,767 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 140 is 0.6568487882614136
+
+2021-10-14 12:13:36,145 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 145 is 0.06408008933067322
+
+2021-10-14 12:13:41,306 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 150 is 0.2456313818693161
+
+2021-10-14 12:13:47,860 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 155 is 0.578964352607727
+
+2021-10-14 12:13:53,018 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 160 is 0.38159099221229553
+
+2021-10-14 12:13:58,319 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 165 is 0.20801189541816711
+
+2021-10-14 12:14:03,493 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 170 is 0.17559540271759033
+
+2021-10-14 12:14:08,821 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 175 is 0.2356630116701126
+
+2021-10-14 12:14:14,479 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 180 is 0.4763219356536865
+
+2021-10-14 12:14:19,843 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 185 is 0.27933773398399353
+
+2021-10-14 12:14:25,316 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 190 is 0.7294176816940308
+
+2021-10-14 12:14:30,614 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 195 is 0.20495903491973877
+
+2021-10-14 12:14:35,755 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 200 is 0.13534459471702576
+
+2021-10-14 12:14:37,670 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 1
+
