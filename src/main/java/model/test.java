@@ -11,8 +11,11 @@ import org.datavec.image.recordreader.ImageRecordReader;
 import org.datavec.image.transform.*;
 import org.deeplearning4j.core.storage.StatsStorage;
 import org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator;
-import org.deeplearning4j.nn.conf.layers.OutputLayer;
+import org.deeplearning4j.nn.conf.NeuralNetConfiguration;
+import org.deeplearning4j.nn.conf.inputs.InputType;
+import org.deeplearning4j.nn.conf.layers.*;
 import org.deeplearning4j.nn.graph.ComputationGraph;
+import org.deeplearning4j.nn.multilayer.MultiLayerNetwork;
 import org.deeplearning4j.nn.transferlearning.FineTuneConfiguration;
 import org.deeplearning4j.nn.transferlearning.TransferLearning;
 import org.deeplearning4j.nn.weights.WeightInit;
@@ -22,13 +25,16 @@ import org.deeplearning4j.optimize.listeners.ScoreIterationListener;
 import org.deeplearning4j.ui.api.UIServer;
 import org.deeplearning4j.ui.model.stats.StatsListener;
 import org.deeplearning4j.ui.model.storage.InMemoryStatsStorage;
+import org.deeplearning4j.util.ModelSerializer;
 import org.deeplearning4j.zoo.ZooModel;
 import org.deeplearning4j.zoo.model.VGG16;
 import org.nd4j.common.io.ClassPathResource;
 import org.nd4j.common.primitives.Pair;
 import org.nd4j.linalg.activations.Activation;
 import org.nd4j.linalg.dataset.api.iterator.DataSetIterator;
+import org.nd4j.linalg.learning.config.Adam;
 import org.nd4j.linalg.learning.config.Nesterovs;
+import org.nd4j.linalg.learning.config.RmsProp;
 import org.nd4j.linalg.lossfunctions.LossFunctions;
 import org.slf4j.Logger;
 
@@ -45,7 +51,7 @@ public class test {
     static String[] allowedFormats = BaseImageLoader.ALLOWED_FORMATS;
     static PathLabelGenerator labelGenerator = new ParentPathLabelGenerator();
     static double learningRate = 0.001;
-    static int nEpoch = 2;
+    static int nEpoch = 10;
     static double splitRatio = 0.8;
 
     static int height = 224;
@@ -66,13 +72,16 @@ public class test {
         InputSplit testData = sample[1];
 
         ImageTransform hFlip = new FlipImageTransform(1);
+        ImageTransform rCrop = new RandomCropTransform(randNumGen, seed, 50, 50);
         ImageTransform rotate = new RotateImageTransform(15);
-        ImageTransform showImage = new ShowImageTransform("Transformed Images", 1000);
+        ImageTransform scale = new ScaleImageTransform(randNumGen, (float) 1.5);
+        ImageTransform showImages = new ShowImageTransform("Augment");
 
         List<Pair<ImageTransform, Double>> transform = Arrays.asList(
-                new Pair<>(hFlip, 0.5),
+                new Pair<>(hFlip, 0.4),
                 new Pair<>(rotate, 0.3),
-                new Pair<>(showImage, 0.1)
+                new Pair<>(rCrop, 0.3),
+                new Pair<>(scale, 0.4)
         );
 
         ImageTransform pipeline = new PipelineImageTransform(transform, false);
@@ -115,15 +124,84 @@ public class test {
         StatsStorage statsStorage = new InMemoryStatsStorage();
         uiServer.attach(statsStorage);
         vgg16Transfer.setListeners(
-                new StatsListener(statsStorage),
+//                new StatsListener(statsStorage),
                 new ScoreIterationListener(5),
                 new EvaluativeListener(trainIter, 1, InvocationType.EPOCH_END),
                 new EvaluativeListener(testIter, 1, InvocationType.EPOCH_END)
         );
 
-        vgg16Transfer.fit(trainIter, nEpoch);
+//        vgg16Transfer.fit(trainIter, nEpoch);
+        MultiLayerNetwork model = new MultiLayerNetwork( new NeuralNetConfiguration.Builder()
+                .seed(123)
+                .weightInit(WeightInit.XAVIER)
+                .updater(new Adam(learningRate))
+                .activation(Activation.RELU)
+                .list()
+                .layer(new ConvolutionLayer.Builder()
+                        .nIn(nChannel)
+                        .kernelSize(3, 3)
+                        .stride(1, 1)
+                        .nOut(6)
+                        .build())
+                .layer(new ConvolutionLayer.Builder()
+                        .kernelSize(3, 3)
+                        .stride(1, 1)
+                        .nOut(12)
+                        .build())
+                .layer(new SubsamplingLayer.Builder()
+                        .kernelSize(2, 2)
+                        .stride(2, 2)
+                        .poolingType(SubsamplingLayer.PoolingType.MAX)
+                        .build())
+                .layer(new BatchNormalization())
+                .layer(new ConvolutionLayer.Builder()
+                        .kernelSize(3, 3)
+                        .stride(1, 1)
+                        .nOut(24)
+                        .build())
+                .layer(new ConvolutionLayer.Builder()
+                        .kernelSize(3, 3)
+                        .stride(1, 1)
+                        .nOut(36)
+                        .build())
+                .layer(new SubsamplingLayer.Builder()
+                        .kernelSize(2, 2)
+                        .stride(2, 2)
+                        .poolingType(SubsamplingLayer.PoolingType.MAX)
+                        .build())
+                .layer(new BatchNormalization())
+                .layer(new DenseLayer.Builder()
+                        .activation(Activation.RELU)
+                        .nOut(20)
+                        .build())
+                .layer(new DenseLayer.Builder()
+                        .activation(Activation.RELU)
+                        .nOut(10)
+                        .build())
+                .layer(new OutputLayer.Builder()
+                        .activation(Activation.SOFTMAX)
+                        .lossFunction(LossFunctions.LossFunction.MCXENT)
+                        .nOut(numClasses)
+                        .build())
+                .setInputType(InputType.convolutional(height, width, nChannel))
+//                .backpropType(BackpropType.Standard)
+                .build());
+        model.init();
+        model.setListeners(
+//                new StatsListener(statsStorage),
+                new ScoreIterationListener(5),
+                new EvaluativeListener(trainIter, 1, InvocationType.EPOCH_END),
+                new EvaluativeListener(testIter, 1, InvocationType.EPOCH_END)
+        );
+        model.fit(trainIter, nEpoch);
 
-        System.out.println(vgg16Transfer.evaluate(trainIter).stats());
-        System.out.println(vgg16Transfer.evaluate(testIter).stats());
+        File saveFile = new File("generated-models/testModel.zip");
+        ModelSerializer.writeModel(model, saveFile, true);
+
+//        System.out.println(vgg16Transfer.evaluate(trainIter).stats());
+//        System.out.println(vgg16Transfer.evaluate(testIter).stats());
+
+        System.out.println(model.evaluate(trainIter).stats());
+        System.out.println(model.evaluate(testIter).stats());
     }
 }
