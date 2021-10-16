@@ -155,7 +155,7 @@ public class SignClassifierCustomCNN {
                         .build())
                 .layer(new OutputLayer.Builder()
                         .activation(Activation.SOFTMAX)
-                        .lossFunction(new LossMCXENT(Nd4j.create(new double[]{1, 1.16})))
+                        .lossFunction(new LossMCXENT(Nd4j.create(new double[]{1, 0.8591})))
                         .nOut(numClasses)
                         .build())
                 .setInputType(InputType.convolutional(height, width, nChannel))

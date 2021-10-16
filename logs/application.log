@@ -4642,3 +4642,2696 @@ Precision, recall & F1: reported for positive class (class 1 - "1") only
 Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
 ==================================================================
 
+2021-10-16 21:34:58,835 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-16 21:35:02,114 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-16 21:35:02,193 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-16 21:35:02,193 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-16 21:35:02,193 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-16 21:35:02,205 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-16 21:35:02,207 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-16 21:35:02,208 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-16 21:35:02,354 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2021-10-16 21:35:02,358 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2021-10-16 21:35:03,064 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in vert.x-eventloop-thread-0
+                
+Deeplearning4j UI server started at: http://localhost:9000
+
+2021-10-16 21:35:03,068 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in main
+                
+StatsStorage instance attached to UI: InMemoryStatsStorage(uid=eb3c4275)
+
+2021-10-16 21:35:05,331 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-16 21:35:13,125 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 0.5640727281570435
+
+2021-10-16 21:36:27,147 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 0.2344038486480713
+
+2021-10-16 21:37:04,251 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 1
+
+2021-10-16 21:37:14,142 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 21:37:14,150 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.5070
+ Precision:       0.8333
+ Recall:          0.0164
+ F1 Score:        0.0322
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 608   2 | 0 = 0
+ 599  10 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 21:37:14,155 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 1
+
+2021-10-16 21:37:16,511 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 21:37:16,513 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.4984
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 152   0 | 0 = 0
+ 153   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 21:37:49,972 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 200 is 0.0708652064204216
+
+2021-10-16 21:38:56,906 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 300 is 0.12398942559957504
+
+2021-10-16 21:38:59,887 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 2
+
+2021-10-16 21:39:08,347 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 21:39:08,348 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.7916
+ Precision:       0.7121
+ Recall:          0.9787
+ F1 Score:        0.8243
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 369 241 | 0 = 0
+  13 596 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 21:39:08,348 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 2
+
+2021-10-16 21:39:10,504 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 21:39:10,504 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8492
+ Precision:       0.7716
+ Recall:          0.9935
+ F1 Score:        0.8686
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 107  45 | 0 = 0
+   1 152 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 21:40:16,339 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 400 is 0.08396755158901215
+
+2021-10-16 21:40:55,758 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 3
+
+2021-10-16 21:41:04,678 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 21:41:04,680 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9139
+ Precision:       0.9013
+ Recall:          0.9294
+ F1 Score:        0.9151
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 548  62 | 0 = 0
+  43 566 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 21:41:04,682 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 3
+
+2021-10-16 21:41:07,413 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 21:41:07,414 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9213
+ Precision:       0.9161
+ Recall:          0.9281
+ F1 Score:        0.9221
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 139  13 | 0 = 0
+  11 142 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 21:41:36,357 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 500 is 0.24951952695846558
+
+2021-10-16 21:42:46,783 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 600 is 0.029942654073238373
+
+2021-10-16 21:42:54,322 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 4
+
+2021-10-16 21:43:03,015 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 21:43:03,016 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9122
+ Precision:       0.9388
+ Recall:          0.8818
+ F1 Score:        0.9094
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 575  35 | 0 = 0
+  72 537 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 21:43:03,016 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 4
+
+2021-10-16 21:43:05,337 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 21:43:05,338 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9279
+ Precision:       0.9396
+ Recall:          0.9150
+ F1 Score:        0.9272
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 143   9 | 0 = 0
+  13 140 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 21:44:07,770 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 700 is 0.018982602283358574
+
+2021-10-16 21:44:51,193 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 5
+
+2021-10-16 21:45:00,089 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 21:45:00,090 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8236
+ Precision:       0.7662
+ Recall:          0.9310
+ F1 Score:        0.8406
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 437 173 | 0 = 0
+  42 567 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 21:45:00,090 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 5
+
+2021-10-16 21:45:02,502 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 21:45:02,503 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8885
+ Precision:       0.8362
+ Recall:          0.9673
+ F1 Score:        0.8970
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 123  29 | 0 = 0
+   5 148 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 21:45:26,913 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 800 is 0.033800508826971054
+
+2021-10-16 21:46:38,629 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 900 is 1.0225772857666016
+
+2021-10-16 21:46:50,301 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 6
+
+2021-10-16 21:46:58,691 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 21:46:58,692 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9524
+ Precision:       0.9825
+ Recall:          0.9212
+ F1 Score:        0.9508
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 600  10 | 0 = 0
+  48 561 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 21:46:58,692 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 6
+
+2021-10-16 21:47:00,914 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 21:47:00,914 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9443
+ Precision:       0.9789
+ Recall:          0.9085
+ F1 Score:        0.9424
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 149   3 | 0 = 0
+  14 139 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 21:48:37,835 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-16 21:48:40,521 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-16 21:48:40,597 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-16 21:48:40,597 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-16 21:48:40,597 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-16 21:48:40,608 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-16 21:48:40,610 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-16 21:48:40,611 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-16 21:48:40,750 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2021-10-16 21:48:40,753 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2021-10-16 21:48:41,568 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in vert.x-eventloop-thread-0
+                
+Deeplearning4j UI server started at: http://localhost:9000
+
+2021-10-16 21:48:41,572 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in main
+                
+StatsStorage instance attached to UI: InMemoryStatsStorage(uid=f911795b)
+
+2021-10-16 21:48:43,299 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-16 21:48:51,346 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 0.5640727281570435
+
+2021-10-16 21:49:59,815 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 0.2344038486480713
+
+2021-10-16 21:50:37,342 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 1
+
+2021-10-16 21:50:47,184 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 21:50:47,190 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.5070
+ Precision:       0.8333
+ Recall:          0.0164
+ F1 Score:        0.0322
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 608   2 | 0 = 0
+ 599  10 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 21:50:47,194 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 1
+
+2021-10-16 21:50:50,097 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 21:50:50,097 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.4984
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 152   0 | 0 = 0
+ 153   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 21:51:23,045 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 200 is 0.0708652064204216
+
+2021-10-16 21:52:31,719 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 300 is 0.12398942559957504
+
+2021-10-16 21:52:35,090 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 2
+
+2021-10-16 21:52:44,038 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 21:52:44,038 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.7916
+ Precision:       0.7121
+ Recall:          0.9787
+ F1 Score:        0.8243
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 369 241 | 0 = 0
+  13 596 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 21:52:44,039 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 2
+
+2021-10-16 21:52:46,293 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 21:52:46,294 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8492
+ Precision:       0.7716
+ Recall:          0.9935
+ F1 Score:        0.8686
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 107  45 | 0 = 0
+   1 152 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 21:53:48,893 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 400 is 0.08396755158901215
+
+2021-10-16 21:54:27,314 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 3
+
+2021-10-16 21:54:35,729 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 21:54:35,730 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9139
+ Precision:       0.9013
+ Recall:          0.9294
+ F1 Score:        0.9151
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 548  62 | 0 = 0
+  43 566 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 21:54:35,730 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 3
+
+2021-10-16 21:54:38,260 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 21:54:38,261 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9213
+ Precision:       0.9161
+ Recall:          0.9281
+ F1 Score:        0.9221
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 139  13 | 0 = 0
+  11 142 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 21:55:08,503 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 500 is 0.24951952695846558
+
+2021-10-16 21:56:17,295 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 600 is 0.029942654073238373
+
+2021-10-16 21:56:24,754 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 4
+
+2021-10-16 21:56:33,306 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 21:56:33,306 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9122
+ Precision:       0.9388
+ Recall:          0.8818
+ F1 Score:        0.9094
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 575  35 | 0 = 0
+  72 537 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 21:56:33,306 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 4
+
+2021-10-16 21:56:35,499 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 21:56:35,500 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9279
+ Precision:       0.9396
+ Recall:          0.9150
+ F1 Score:        0.9272
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 143   9 | 0 = 0
+  13 140 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 21:57:37,683 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 700 is 0.018982602283358574
+
+2021-10-16 21:58:19,721 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 5
+
+2021-10-16 21:58:30,216 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 21:58:30,217 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8236
+ Precision:       0.7662
+ Recall:          0.9310
+ F1 Score:        0.8406
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 437 173 | 0 = 0
+  42 567 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 21:58:30,217 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 5
+
+2021-10-16 21:58:33,519 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 21:58:33,519 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8885
+ Precision:       0.8362
+ Recall:          0.9673
+ F1 Score:        0.8970
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 123  29 | 0 = 0
+   5 148 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 21:58:59,497 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 800 is 0.033800508826971054
+
+2021-10-16 22:00:09,810 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 900 is 1.0225772857666016
+
+2021-10-16 22:00:21,704 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 6
+
+2021-10-16 22:00:31,586 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 22:00:31,586 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9524
+ Precision:       0.9825
+ Recall:          0.9212
+ F1 Score:        0.9508
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 600  10 | 0 = 0
+  48 561 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 22:00:31,587 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 6
+
+2021-10-16 22:00:34,261 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 22:00:34,263 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9443
+ Precision:       0.9789
+ Recall:          0.9085
+ F1 Score:        0.9424
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 149   3 | 0 = 0
+  14 139 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 22:01:32,366 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1000 is 0.18284553289413452
+
+2021-10-16 22:02:21,920 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 7
+
+2021-10-16 22:02:31,333 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 22:02:31,334 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9065
+ Precision:       0.9920
+ Recall:          0.8194
+ F1 Score:        0.8975
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 606   4 | 0 = 0
+ 110 499 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 22:02:31,334 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 7
+
+2021-10-16 22:02:33,601 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 22:02:33,602 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9082
+ Precision:       0.9921
+ Recall:          0.8235
+ F1 Score:        0.9000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 151   1 | 0 = 0
+  27 126 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 22:02:55,203 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1100 is 0.12417568266391754
+
+2021-10-16 22:04:05,964 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1200 is 0.019857389852404594
+
+2021-10-16 22:04:21,738 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 8
+
+2021-10-16 22:04:30,349 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 22:04:30,349 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.5004
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 610   0 | 0 = 0
+ 609   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 22:04:30,349 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 8
+
+2021-10-16 22:04:32,415 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 22:04:32,416 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.4984
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 152   0 | 0 = 0
+ 153   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 22:05:26,194 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1300 is 0.03117462620139122
+
+2021-10-16 22:06:21,874 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 9
+
+2021-10-16 22:06:30,443 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 22:06:30,443 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9253
+ Precision:       0.9981
+ Recall:          0.8522
+ F1 Score:        0.9194
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 609   1 | 0 = 0
+  90 519 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 22:06:30,443 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 9
+
+2021-10-16 22:06:32,734 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 22:06:32,735 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9246
+ Precision:       0.9924
+ Recall:          0.8562
+ F1 Score:        0.9193
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 151   1 | 0 = 0
+  22 131 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 22:06:50,295 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1400 is 0.004835149738937616
+
+2021-10-16 22:07:59,157 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1500 is 0.21244268119335175
+
+2021-10-16 22:08:18,491 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 10
+
+2021-10-16 22:08:26,978 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 22:08:26,979 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9573
+ Precision:       0.9588
+ Recall:          0.9557
+ F1 Score:        0.9572
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 585  25 | 0 = 0
+  27 582 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 22:08:26,979 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 10
+
+2021-10-16 22:08:29,174 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 22:08:29,175 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9541
+ Precision:       0.9728
+ Recall:          0.9346
+ F1 Score:        0.9533
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 148   4 | 0 = 0
+  10 143 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 22:12:44,135 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-16 22:12:46,367 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-16 22:12:46,451 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-16 22:12:46,451 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-16 22:12:46,451 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-16 22:12:46,471 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-16 22:12:46,473 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-16 22:12:46,473 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-16 22:12:46,614 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2021-10-16 22:12:46,618 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2021-10-16 22:12:47,652 - [INFO] - from org.deeplearning4j.zoo.ZooModel in main
+                
+Using cached model at C:\Users\USER\.deeplearning4j\models\vgg16\vgg16_dl4j_inference.zip
+
+2021-10-16 22:12:47,652 - [INFO] - from org.deeplearning4j.zoo.ZooModel in main
+                
+Verifying download...
+
+2021-10-16 22:12:48,722 - [INFO] - from org.deeplearning4j.zoo.ZooModel in main
+                
+Checksum local is 3501732770, expecting 3501732770
+
+2021-10-16 22:14:02,982 - [INFO] - from org.deeplearning4j.nn.graph.ComputationGraph in main
+                
+Starting ComputationGraph with WorkspaceModes set to [training: NONE; inference: SINGLE], cacheMode set to [NONE]
+
+2021-10-16 22:14:04,149 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in vert.x-eventloop-thread-0
+                
+Deeplearning4j UI server started at: http://localhost:9000
+
+2021-10-16 22:14:04,153 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in main
+                
+StatsStorage instance attached to UI: InMemoryStatsStorage(uid=2696ef61)
+
+2021-10-16 22:14:04,859 - [INFO] - from org.deeplearning4j.nn.layers.FrozenLayer in main
+                
+Gradients for the frozen layer are not set and will therefore will not be updated.Warning will be issued only once per instance
+
+2021-10-16 22:23:29,695 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-16 22:23:31,903 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-16 22:23:31,981 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-16 22:23:31,981 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-16 22:23:31,981 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-16 22:23:31,992 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-16 22:23:31,993 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-16 22:23:31,994 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-16 22:23:32,124 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2021-10-16 22:23:32,128 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2021-10-16 22:23:32,219 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2021-10-16 22:23:32,220 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2021-10-16 22:23:33,223 - [INFO] - from org.deeplearning4j.zoo.ZooModel in main
+                
+Using cached model at C:\Users\USER\.deeplearning4j\models\vgg16\vgg16_dl4j_inference.zip
+
+2021-10-16 22:23:33,223 - [INFO] - from org.deeplearning4j.zoo.ZooModel in main
+                
+Verifying download...
+
+2021-10-16 22:23:33,971 - [INFO] - from org.deeplearning4j.zoo.ZooModel in main
+                
+Checksum local is 3501732770, expecting 3501732770
+
+2021-10-16 22:24:37,757 - [INFO] - from org.deeplearning4j.nn.graph.ComputationGraph in main
+                
+Starting ComputationGraph with WorkspaceModes set to [training: NONE; inference: SINGLE], cacheMode set to [NONE]
+
+2021-10-16 22:24:38,609 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in vert.x-eventloop-thread-0
+                
+Deeplearning4j UI server started at: http://localhost:9000
+
+2021-10-16 22:24:38,613 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in main
+                
+StatsStorage instance attached to UI: InMemoryStatsStorage(uid=8c82c44e)
+
+2021-10-16 22:24:39,294 - [INFO] - from org.deeplearning4j.nn.layers.FrozenLayer in main
+                
+Gradients for the frozen layer are not set and will therefore will not be updated.Warning will be issued only once per instance
+
+2021-10-16 22:24:45,001 - [INFO] - from org.deeplearning4j.nn.layers.FrozenLayer in main
+                
+Frozen layer instance found! Frozen layers are treated as always in test mode. Warning will only be issued once per instance
+
+2021-10-16 22:31:50,861 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-16 22:31:53,405 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-16 22:31:53,490 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-16 22:31:53,490 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-16 22:31:53,490 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-16 22:31:53,508 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-16 22:31:53,511 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-16 22:31:53,511 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-16 22:31:53,689 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2021-10-16 22:31:53,693 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2021-10-16 22:31:53,791 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2021-10-16 22:31:53,792 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2021-10-16 22:31:54,863 - [INFO] - from org.deeplearning4j.zoo.ZooModel in main
+                
+Using cached model at C:\Users\USER\.deeplearning4j\models\vgg16\vgg16_dl4j_inference.zip
+
+2021-10-16 22:31:54,863 - [INFO] - from org.deeplearning4j.zoo.ZooModel in main
+                
+Verifying download...
+
+2021-10-16 22:31:55,672 - [INFO] - from org.deeplearning4j.zoo.ZooModel in main
+                
+Checksum local is 3501732770, expecting 3501732770
+
+2021-10-16 22:33:02,947 - [INFO] - from org.deeplearning4j.nn.graph.ComputationGraph in main
+                
+Starting ComputationGraph with WorkspaceModes set to [training: NONE; inference: SINGLE], cacheMode set to [NONE]
+
+2021-10-16 22:33:03,914 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in vert.x-eventloop-thread-0
+                
+Deeplearning4j UI server started at: http://localhost:9000
+
+2021-10-16 22:33:03,919 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in main
+                
+StatsStorage instance attached to UI: InMemoryStatsStorage(uid=b67abc74)
+
+2021-10-16 22:33:04,551 - [INFO] - from org.deeplearning4j.nn.layers.FrozenLayer in main
+                
+Gradients for the frozen layer are not set and will therefore will not be updated.Warning will be issued only once per instance
+
+2021-10-16 22:33:10,482 - [INFO] - from org.deeplearning4j.nn.layers.FrozenLayer in main
+                
+Frozen layer instance found! Frozen layers are treated as always in test mode. Warning will only be issued once per instance
+
+2021-10-16 22:33:14,579 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 0.8312373161315918
+
+2021-10-16 22:33:26,658 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 10 is 0.7264127731323242
+
+2021-10-16 22:33:37,223 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 20 is 0.285224974155426
+
+2021-10-16 22:33:49,190 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 30 is 0.4285345673561096
+
+2021-10-16 22:34:00,199 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 40 is 0.2746390104293823
+
+2021-10-16 22:34:10,541 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 50 is 0.46498608589172363
+
+2021-10-16 22:34:20,004 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 60 is 0.307411253452301
+
+2021-10-16 22:34:30,345 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 70 is 0.11600908637046814
+
+2021-10-16 22:34:40,747 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 80 is 0.1565203070640564
+
+2021-10-16 22:34:51,299 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 90 is 0.7287148237228394
+
+2021-10-16 22:35:01,810 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 0.3890378475189209
+
+2021-10-16 22:35:12,394 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 110 is 0.11814355105161667
+
+2021-10-16 22:35:22,978 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 120 is 1.3803315162658691
+
+2021-10-16 22:35:33,590 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 130 is 0.3834899365901947
+
+2021-10-16 22:35:44,229 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 140 is 0.29778531193733215
+
+2021-10-16 22:35:54,766 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 150 is 0.6776439547538757
+
+2021-10-16 22:35:58,013 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 1
+
+2021-10-16 22:38:02,674 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 22:38:02,683 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8679
+ Precision:       0.8478
+ Recall:          0.8966
+ F1 Score:        0.8715
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 512  98 | 0 = 0
+  63 546 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 22:38:02,687 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 1
+
+2021-10-16 22:38:31,435 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 22:38:31,436 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8951
+ Precision:       0.9353
+ Recall:          0.8497
+ F1 Score:        0.8904
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 143   9 | 0 = 0
+  23 130 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 22:38:37,446 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 160 is 0.06264815479516983
+
+2021-10-16 22:38:46,832 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 170 is 0.06673778593540192
+
+2021-10-16 22:38:56,163 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 180 is 0.17608587443828583
+
+2021-10-16 22:39:07,618 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 190 is 0.21314391493797302
+
+2021-10-16 22:39:18,148 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 200 is 0.1093614399433136
+
+2021-10-16 22:39:28,604 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 210 is 0.21061956882476807
+
+2021-10-16 22:39:39,042 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 220 is 0.48613107204437256
+
+2021-10-16 22:39:49,219 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 230 is 0.4128170609474182
+
+2021-10-16 22:40:00,550 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 240 is 0.7397862076759338
+
+2021-10-16 22:40:12,523 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 250 is 0.14790065586566925
+
+2021-10-16 22:40:24,609 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 260 is 0.4606492519378662
+
+2021-10-16 22:40:36,621 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 270 is 0.09141133725643158
+
+2021-10-16 22:40:48,575 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 280 is 0.13645312190055847
+
+2021-10-16 22:41:00,525 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 290 is 0.020558953285217285
+
+2021-10-16 22:41:12,509 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 300 is 0.1699492484331131
+
+2021-10-16 22:41:19,052 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 2
+
+2021-10-16 22:43:45,358 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 22:43:45,359 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8507
+ Precision:       0.7994
+ Recall:          0.9360
+ F1 Score:        0.8623
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 467 143 | 0 = 0
+  39 570 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 22:43:45,359 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 2
+
+2021-10-16 22:44:22,018 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 22:44:22,019 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9213
+ Precision:       0.8686
+ Recall:          0.9935
+ F1 Score:        0.9268
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 129  23 | 0 = 0
+   1 152 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 22:44:27,066 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 310 is 0.1356094628572464
+
+2021-10-16 22:44:38,124 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 320 is 0.02937021106481552
+
+2021-10-16 22:44:47,487 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 330 is 0.2114902287721634
+
+2021-10-16 22:44:58,204 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 340 is 0.38031017780303955
+
+2021-10-16 22:45:08,724 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 350 is 1.9347941875457764
+
+2021-10-16 22:45:19,281 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 360 is 0.4251229763031006
+
+2021-10-16 22:45:29,888 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 370 is 0.3474433720111847
+
+2021-10-16 22:45:40,473 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 380 is 0.2704998254776001
+
+2021-10-16 22:45:50,990 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 390 is 0.8241258263587952
+
+2021-10-16 22:46:01,603 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 400 is 0.3548382520675659
+
+2021-10-16 22:46:12,136 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 410 is 0.2962987422943115
+
+2021-10-16 22:46:22,702 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 420 is 0.023024460300803185
+
+2021-10-16 22:46:33,241 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 430 is 0.12413816154003143
+
+2021-10-16 22:46:43,822 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 440 is 0.17910124361515045
+
+2021-10-16 22:46:54,422 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 450 is 0.19420579075813293
+
+2021-10-16 22:47:02,771 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 3
+
+2021-10-16 22:49:10,384 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 22:49:10,385 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8958
+ Precision:       0.9213
+ Recall:          0.8654
+ F1 Score:        0.8925
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 565  45 | 0 = 0
+  82 527 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 22:49:10,385 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 3
+
+2021-10-16 22:49:42,332 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 22:49:42,333 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9311
+ Precision:       0.9648
+ Recall:          0.8954
+ F1 Score:        0.9288
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 147   5 | 0 = 0
+  16 137 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 22:49:44,134 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 460 is 0.2739071249961853
+
+2021-10-16 22:49:54,697 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 470 is 0.25496312975883484
+
+2021-10-16 22:50:05,246 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 480 is 0.44068461656570435
+
+2021-10-16 22:50:15,805 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 490 is 0.30658474564552307
+
+2021-10-16 22:50:26,403 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 500 is 0.24489521980285645
+
+2021-10-16 22:50:36,949 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 510 is 0.061713092029094696
+
+2021-10-16 22:50:47,534 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 520 is 0.45592886209487915
+
+2021-10-16 22:50:58,176 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 530 is 0.903629720211029
+
+2021-10-16 22:51:08,894 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 540 is 0.01851108856499195
+
+2021-10-16 22:51:19,648 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 550 is 0.3392360210418701
+
+2021-10-16 22:51:30,281 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 560 is 0.5383211374282837
+
+2021-10-16 22:51:40,106 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 570 is 0.1171124204993248
+
+2021-10-16 22:51:49,622 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 580 is 0.07609449326992035
+
+2021-10-16 22:51:59,063 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 590 is 0.09122462570667267
+
+2021-10-16 22:52:08,527 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 600 is 0.4500480890274048
+
+2021-10-16 22:52:17,993 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 610 is 0.2302401214838028
+
+2021-10-16 22:52:19,674 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 4
+
+2021-10-16 22:54:12,640 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 22:54:12,641 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8983
+ Precision:       0.9323
+ Recall:          0.8588
+ F1 Score:        0.8940
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 572  38 | 0 = 0
+  86 523 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 22:54:12,641 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 4
+
+2021-10-16 22:54:41,035 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 22:54:41,036 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8885
+ Precision:       0.9685
+ Recall:          0.8039
+ F1 Score:        0.8786
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 148   4 | 0 = 0
+  30 123 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 22:54:47,902 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 620 is 0.281177282333374
+
+2021-10-16 22:54:57,394 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 630 is 0.04912393167614937
+
+2021-10-16 22:55:06,826 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 640 is 0.20353960990905762
+
+2021-10-16 22:55:16,258 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 650 is 0.3478151857852936
+
+2021-10-16 22:55:25,689 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 660 is 0.13823583722114563
+
+2021-10-16 22:55:35,188 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 670 is 0.18779513239860535
+
+2021-10-16 22:55:44,648 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 680 is 0.5550359487533569
+
+2021-10-16 22:55:54,076 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 690 is 0.023694230243563652
+
+2021-10-16 22:56:03,523 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 700 is 0.3556225001811981
+
+2021-10-16 22:56:13,029 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 710 is 0.1652369201183319
+
+2021-10-16 22:56:22,521 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 720 is 0.17878812551498413
+
+2021-10-16 22:56:31,963 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 730 is 0.45732414722442627
+
+2021-10-16 22:56:41,438 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 740 is 1.1820592880249023
+
+2021-10-16 22:56:50,900 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 750 is 0.062006283551454544
+
+2021-10-16 22:57:00,356 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 760 is 0.11364201456308365
+
+2021-10-16 22:57:04,814 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 5
+
+2021-10-16 22:58:57,734 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 22:58:57,735 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9089
+ Precision:       0.8866
+ Recall:          0.9376
+ F1 Score:        0.9114
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 537  73 | 0 = 0
+  38 571 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 22:58:57,735 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 5
+
+2021-10-16 22:59:26,076 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 22:59:26,077 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9475
+ Precision:       0.9363
+ Recall:          0.9608
+ F1 Score:        0.9484
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 142  10 | 0 = 0
+   6 147 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 22:59:30,676 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 770 is 0.0710708498954773
+
+2021-10-16 22:59:40,121 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 780 is 0.064217709004879
+
+2021-10-16 22:59:49,574 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 790 is 0.5545074343681335
+
+2021-10-16 22:59:59,058 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 800 is 0.09782414138317108
+
+2021-10-16 23:00:08,516 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 810 is 0.28380876779556274
+
+2021-10-16 23:00:17,952 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 820 is 0.07530876994132996
+
+2021-10-16 23:00:27,450 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 830 is 0.08600135147571564
+
+2021-10-16 23:00:36,906 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 840 is 0.5634465217590332
+
+2021-10-16 23:00:46,355 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 850 is 0.0522339828312397
+
+2021-10-16 23:00:55,839 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 860 is 0.05017620325088501
+
+2021-10-16 23:01:05,294 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 870 is 0.03095311112701893
+
+2021-10-16 23:01:14,756 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 880 is 0.19405335187911987
+
+2021-10-16 23:01:24,189 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 890 is 0.37957441806793213
+
+2021-10-16 23:01:33,664 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 900 is 0.9639432430267334
+
+2021-10-16 23:01:43,108 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 910 is 0.26318734884262085
+
+2021-10-16 23:01:49,822 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 6
+
+2021-10-16 23:03:42,712 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 23:03:42,713 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8917
+ Precision:       0.8523
+ Recall:          0.9475
+ F1 Score:        0.8974
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 510 100 | 0 = 0
+  32 577 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 23:03:42,713 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 6
+
+2021-10-16 23:04:11,013 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 23:04:11,014 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9311
+ Precision:       0.9583
+ Recall:          0.9020
+ F1 Score:        0.9293
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 146   6 | 0 = 0
+  15 138 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 23:04:13,347 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 920 is 0.11706823110580444
+
+2021-10-16 23:04:22,795 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 930 is 0.5191679000854492
+
+2021-10-16 23:04:32,228 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 940 is 0.16962015628814697
+
+2021-10-16 23:04:41,702 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 950 is 0.26856759190559387
+
+2021-10-16 23:04:51,136 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 960 is 0.14523600041866302
+
+2021-10-16 23:05:00,591 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 970 is 0.12754887342453003
+
+2021-10-16 23:05:10,037 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 980 is 0.03189006820321083
+
+2021-10-16 23:05:19,570 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 990 is 0.3861275613307953
+
+2021-10-16 23:05:29,023 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1000 is 0.032919514924287796
+
+2021-10-16 23:05:38,449 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1010 is 0.02916213497519493
+
+2021-10-16 23:05:47,948 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1020 is 1.0562777519226074
+
+2021-10-16 23:05:57,400 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1030 is 1.4418431520462036
+
+2021-10-16 23:06:06,852 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1040 is 0.11500704288482666
+
+2021-10-16 23:06:16,296 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1050 is 0.4935695230960846
+
+2021-10-16 23:06:25,784 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1060 is 0.8515766263008118
+
+2021-10-16 23:06:34,739 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1070 is 0.031005481878916424
+
+2021-10-16 23:06:35,579 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 7
+
+2021-10-16 23:08:28,576 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 23:08:28,577 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9295
+ Precision:       0.9131
+ Recall:          0.9491
+ F1 Score:        0.9308
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 555  55 | 0 = 0
+  31 578 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 23:08:28,577 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 7
+
+2021-10-16 23:08:56,899 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 23:08:56,899 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9344
+ Precision:       0.9463
+ Recall:          0.9216
+ F1 Score:        0.9338
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 144   8 | 0 = 0
+  12 141 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 23:09:05,570 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1080 is 0.27465370297431946
+
+2021-10-16 23:09:15,043 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1090 is 0.15758489072322845
+
+2021-10-16 23:09:24,481 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1100 is 0.034743085503578186
+
+2021-10-16 23:09:33,951 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1110 is 0.15543034672737122
+
+2021-10-16 23:09:43,423 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1120 is 0.04376211017370224
+
+2021-10-16 23:09:52,599 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1130 is 0.0374375618994236
+
+2021-10-16 23:10:01,816 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1140 is 0.8331299424171448
+
+2021-10-16 23:10:10,971 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1150 is 0.49737510085105896
+
+2021-10-16 23:10:20,130 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1160 is 0.3658031225204468
+
+2021-10-16 23:10:29,321 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1170 is 0.3161682188510895
+
+2021-10-16 23:10:38,483 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1180 is 0.06312388181686401
+
+2021-10-16 23:10:47,641 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1190 is 0.05836869403719902
+
+2021-10-16 23:10:56,801 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1200 is 0.4888283908367157
+
+2021-10-16 23:11:06,026 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1210 is 0.2767418622970581
+
+2021-10-16 23:11:15,205 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1220 is 0.20086079835891724
+
+2021-10-16 23:11:18,811 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 8
+
+2021-10-16 23:13:11,403 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 23:13:11,404 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9344
+ Precision:       0.9287
+ Recall:          0.9409
+ F1 Score:        0.9347
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 566  44 | 0 = 0
+  36 573 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 23:13:11,404 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 8
+
+2021-10-16 23:13:42,257 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 23:13:42,257 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9508
+ Precision:       0.9481
+ Recall:          0.9542
+ F1 Score:        0.9511
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 144   8 | 0 = 0
+   7 146 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 23:13:48,215 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1230 is 0.17282447218894958
+
+2021-10-16 23:13:58,852 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1240 is 0.02742261253297329
+
+2021-10-16 23:14:10,033 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1250 is 0.1513405442237854
+
+2021-10-16 23:14:20,932 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1260 is 0.7247342467308044
+
+2021-10-16 23:14:31,828 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1270 is 0.14427344501018524
+
+2021-10-16 23:14:42,760 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1280 is 0.04253096878528595
+
+2021-10-16 23:14:53,488 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1290 is 0.05036238580942154
+
+2021-10-16 23:15:04,358 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1300 is 0.011570466682314873
+
+2021-10-16 23:15:15,077 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1310 is 0.18296381831169128
+
+2021-10-16 23:15:25,921 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1320 is 0.0811401903629303
+
+2021-10-16 23:15:36,598 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1330 is 0.11062048375606537
+
+2021-10-16 23:15:47,461 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1340 is 0.11573537439107895
+
+2021-10-16 23:15:58,313 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1350 is 0.1687246859073639
+
+2021-10-16 23:16:09,162 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1360 is 0.3348392844200134
+
+2021-10-16 23:16:20,015 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1370 is 0.21661168336868286
+
+2021-10-16 23:16:26,838 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 9
+
+2021-10-16 23:18:35,231 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 23:18:35,232 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9368
+ Precision:       0.9375
+ Recall:          0.9360
+ F1 Score:        0.9367
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 572  38 | 0 = 0
+  39 570 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 23:18:35,232 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 9
+
+2021-10-16 23:19:07,158 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 23:19:07,158 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9377
+ Precision:       0.9351
+ Recall:          0.9412
+ F1 Score:        0.9381
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 142  10 | 0 = 0
+   9 144 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 23:19:10,652 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1380 is 0.1464383602142334
+
+2021-10-16 23:19:21,302 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1390 is 0.02734273672103882
+
+2021-10-16 23:19:31,838 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1400 is 0.3805028796195984
+
+2021-10-16 23:19:42,348 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1410 is 0.16389727592468262
+
+2021-10-16 23:19:52,915 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1420 is 0.0242709182202816
+
+2021-10-16 23:20:03,458 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1430 is 0.061981409788131714
+
+2021-10-16 23:20:13,960 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1440 is 0.11343047022819519
+
+2021-10-16 23:20:24,587 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1450 is 0.04882209002971649
+
+2021-10-16 23:20:34,973 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1460 is 0.7608264684677124
+
+2021-10-16 23:20:45,435 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1470 is 0.08358117192983627
+
+2021-10-16 23:20:55,852 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1480 is 0.12367983162403107
+
+2021-10-16 23:21:06,371 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1490 is 0.21047772467136383
+
+2021-10-16 23:21:16,906 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1500 is 0.10499728471040726
+
+2021-10-16 23:21:27,335 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1510 is 0.5281652212142944
+
+2021-10-16 23:21:37,748 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 1520 is 0.07577850669622421
+
+2021-10-16 23:21:46,940 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 10
+
+2021-10-16 23:23:55,017 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 23:23:55,017 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9221
+ Precision:       0.8942
+ Recall:          0.9573
+ F1 Score:        0.9247
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 541  69 | 0 = 0
+  26 583 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-10-16 23:23:55,017 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 10
+
+2021-10-16 23:24:26,795 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-10-16 23:24:26,795 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9672
+ Precision:       0.9497
+ Recall:          0.9869
+ F1 Score:        0.9679
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 144   8 | 0 = 0
+   2 151 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
