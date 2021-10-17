@@ -39,19 +39,19 @@ public class SignTest {
 
         MultiLayerNetwork model = ModelSerializer.restoreMultiLayerNetwork(CNNmodel);
 
-        while (testIter.hasNext()) {
-            DataSet curr = testIter.next();
-
-            DataNormalization scaler = new ImagePreProcessingScaler(0, 1);
-            scaler.transform(curr);
-
-            INDArray features = curr.getFeatures();
-            INDArray labels = curr.getLabels();
-
-            Evaluation evaluate = new Evaluation();
-            evaluate.eval(labels, model.output(features));
-            System.out.println(evaluate.stats());
-        }
+//        while (testIter.hasNext()) {
+//            DataSet curr = testIter.next();
+//
+//            DataNormalization scaler = new ImagePreProcessingScaler(0, 1);
+//            scaler.transform(curr);
+//
+//            INDArray features = curr.getFeatures();
+//            INDArray labels = curr.getLabels();
+//
+//            Evaluation evaluate = new Evaluation();
+//            evaluate.eval(labels, model.output(features));
+//            System.out.println(evaluate.stats());
+//        }
 
         // Predict Images from Test Folder
         File testForge = new ClassPathResource("sign_data/test/forge/01_0101066.PNG").getFile();
@@ -68,12 +68,12 @@ public class SignTest {
         INDArray output_2 = model.output(validSign);
 
         System.out.println("========== FORGED SIGN ==========");
-        System.out.println("Label: " + Nd4j.argMax(output_1, 1));
+        System.out.println("Label: " + Nd4j.max(output_1, 1));
         System.out.println("Probailities: " + output_1.toString());
         System.out.println("Prediction: " + model.predict(forgedSign)[0]);
 
         System.out.println("========== VALID SIGN ==========");
-        System.out.println("Label: " + Nd4j.argMax(output_2, 1));
+        System.out.println("Label: " + Nd4j.max(output_2, 1));
         System.out.println("Probailities: " + output_2.toString());
         System.out.println("Prediction: " + model.predict(validSign)[0]);
     }
