@@ -23,7 +23,6 @@ import org.deeplearning4j.optimize.api.InvocationType;
 import org.deeplearning4j.optimize.listeners.EvaluativeListener;
 import org.deeplearning4j.optimize.listeners.ScoreIterationListener;
 import org.deeplearning4j.ui.api.UIServer;
-import org.deeplearning4j.ui.model.stats.StatsListener;
 import org.deeplearning4j.ui.model.storage.InMemoryStatsStorage;
 import org.deeplearning4j.util.ModelSerializer;
 import org.deeplearning4j.zoo.ZooModel;
@@ -34,7 +33,6 @@ import org.nd4j.linalg.activations.Activation;
 import org.nd4j.linalg.dataset.api.iterator.DataSetIterator;
 import org.nd4j.linalg.learning.config.Adam;
 import org.nd4j.linalg.learning.config.Nesterovs;
-import org.nd4j.linalg.learning.config.RmsProp;
 import org.nd4j.linalg.lossfunctions.LossFunctions;
 import org.slf4j.Logger;
 
@@ -43,8 +41,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-public class test {
-    private static final Logger log = org.slf4j.LoggerFactory.getLogger(test.class);
+public class QuickStart {
+    private static final Logger log = org.slf4j.LoggerFactory.getLogger(QuickStart.class);
 
     private static int seed = 123;
     private static final Random randNumGen = new Random(seed);
@@ -195,7 +193,7 @@ public class test {
         );
         model.fit(trainIter, nEpoch);
 
-        File saveFile = new File("generated-models/testModel.zip");
+        File saveFile = new File("generated-models/QuickStartModel.zip");
         ModelSerializer.writeModel(model, saveFile, true);
 
 //        System.out.println(vgg16Transfer.evaluate(trainIter).stats());

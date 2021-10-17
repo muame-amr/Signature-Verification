@@ -7335,3 +7335,1290 @@ Precision, recall & F1: reported for positive class (class 1 - "1") only
 Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
 ==================================================================
 
+2021-10-17 00:39:31,163 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 00:39:34,922 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 00:39:35,021 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 00:39:35,021 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 00:39:35,021 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 00:39:35,035 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 00:39:35,037 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 00:39:35,037 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 00:39:39,483 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 00:40:39,366 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 00:40:42,365 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 00:40:42,443 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 00:40:42,443 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 00:40:42,443 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 00:40:42,457 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 00:40:42,458 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 00:40:42,459 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 00:40:46,734 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 00:41:52,887 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 00:41:56,948 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 00:41:57,035 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 00:41:57,035 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 00:41:57,035 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 00:41:57,051 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 00:41:57,053 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 00:41:57,053 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 00:42:01,394 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 00:43:03,136 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 00:43:06,226 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 00:43:06,324 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 00:43:06,324 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 00:43:06,324 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 00:43:06,339 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 00:43:06,340 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 00:43:06,341 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 00:43:10,873 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 00:43:48,796 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 00:43:51,806 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 00:43:51,886 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 00:43:51,886 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 00:43:51,886 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 00:43:51,900 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 00:43:51,901 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 00:43:51,902 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 00:43:56,345 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 00:44:18,969 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 00:44:21,981 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 00:44:22,059 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 00:44:22,059 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 00:44:22,060 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 00:44:22,073 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 00:44:22,075 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 00:44:22,075 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 00:44:26,452 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 00:45:37,692 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 00:45:40,630 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 00:45:40,719 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 00:45:40,720 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 00:45:40,720 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 00:45:40,734 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 00:45:40,735 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 00:45:40,735 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 00:45:45,080 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 00:46:06,984 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 00:46:09,996 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 00:46:10,080 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 00:46:10,080 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 00:46:10,080 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 00:46:10,095 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 00:46:10,096 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 00:46:10,096 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 00:46:14,499 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 00:47:24,734 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 00:47:27,718 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 00:47:27,796 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 00:47:27,796 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 00:47:27,796 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 00:47:27,809 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 00:47:27,811 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 00:47:27,811 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 00:47:32,202 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 00:49:02,087 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 00:49:05,239 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 00:49:05,325 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 00:49:05,326 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 00:49:05,326 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 00:49:05,363 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 00:49:05,366 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 00:49:05,367 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 00:49:09,969 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 00:49:55,121 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 00:49:58,352 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 00:49:58,430 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 00:49:58,430 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 00:49:58,430 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 00:49:58,444 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 00:49:58,445 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 00:49:58,445 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 00:50:02,759 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 00:50:29,544 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 00:50:32,669 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 00:50:32,751 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 00:50:32,751 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 00:50:32,752 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 00:50:32,765 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 00:50:32,767 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 00:50:32,767 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 00:50:37,182 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 00:51:01,823 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 00:51:04,992 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 00:51:05,071 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 00:51:05,072 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 00:51:05,072 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 00:51:05,088 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 00:51:05,089 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 00:51:05,089 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 00:51:09,483 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 06:09:16,634 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 06:09:21,289 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 06:09:21,375 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 06:09:21,375 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 06:09:21,375 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 06:09:21,390 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 06:09:21,392 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 06:09:21,392 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 06:09:27,054 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 06:12:21,687 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 06:12:24,592 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 06:12:24,670 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 06:12:24,670 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 06:12:24,670 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 06:12:24,685 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 06:12:24,686 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 06:12:24,687 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 06:12:28,974 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 06:13:03,290 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 06:13:06,176 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 06:13:06,261 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 06:13:06,262 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 06:13:06,262 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 06:13:06,275 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 06:13:06,277 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 06:13:06,277 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 06:13:10,621 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 06:13:29,530 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 06:13:32,620 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 06:13:32,699 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 06:13:32,699 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 06:13:32,700 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 06:13:32,715 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 06:13:32,716 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 06:13:32,717 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 06:13:37,016 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 06:13:59,136 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 06:14:02,159 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 06:14:02,234 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 06:14:02,234 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 06:14:02,234 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 06:14:02,249 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 06:14:02,250 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 06:14:02,251 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 06:14:06,630 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 06:14:21,779 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 06:14:24,663 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 06:14:24,739 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 06:14:24,739 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 06:14:24,739 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 06:14:24,753 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 06:14:24,754 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 06:14:24,755 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 06:14:29,149 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 06:15:00,776 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 06:15:03,653 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 06:15:03,729 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 06:15:03,729 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 06:15:03,729 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 06:15:03,744 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 06:15:03,746 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 06:15:03,746 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 06:15:08,099 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 06:15:28,370 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 06:15:31,617 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 06:15:31,701 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 06:15:31,701 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 06:15:31,701 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 06:15:31,715 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 06:15:31,716 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 06:15:31,716 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 06:15:36,043 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 06:15:56,991 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 06:15:59,881 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 06:15:59,957 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 06:15:59,957 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 06:15:59,957 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 06:15:59,972 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 06:15:59,974 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 06:15:59,974 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 06:16:04,302 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 06:17:35,304 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 06:17:38,220 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 06:17:38,295 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 06:17:38,295 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 06:17:38,295 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 06:17:38,308 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 06:17:38,310 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 06:17:38,310 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 06:17:42,572 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 06:18:28,597 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 06:18:31,951 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 06:18:32,090 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 06:18:32,090 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 06:18:32,090 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 06:18:32,103 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 06:18:32,104 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 06:18:32,105 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 06:18:36,477 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 06:31:41,466 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 06:31:44,555 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 06:31:44,635 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 06:31:44,636 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 06:31:44,636 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 06:31:44,649 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 06:31:44,652 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 06:31:44,652 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 06:31:49,150 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 06:32:34,466 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 06:32:37,600 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 06:32:37,747 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 06:32:37,748 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 06:32:37,749 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 06:32:37,779 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 06:32:37,781 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 06:32:37,781 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 06:32:42,104 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 06:33:55,545 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 06:33:58,920 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 06:33:59,014 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 06:33:59,014 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 06:33:59,014 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 06:33:59,031 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 06:33:59,033 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 06:33:59,033 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 06:34:03,374 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 07:08:33,056 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2021-10-17 07:08:33,545 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 07:08:35,829 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 07:08:35,906 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 07:08:35,906 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 07:08:35,906 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 07:08:35,918 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 07:08:35,920 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 07:08:35,920 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 07:08:40,180 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 07:21:00,450 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2021-10-17 07:21:01,181 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 07:21:03,645 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 07:21:03,719 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 07:21:03,719 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 07:21:03,719 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 07:21:03,731 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 07:21:03,733 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 07:21:03,733 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 07:21:10,677 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 07:21:55,751 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2021-10-17 07:21:56,403 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 07:21:58,578 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 07:21:58,648 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 07:21:58,649 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 07:21:58,649 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 07:21:58,658 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 07:21:58,660 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 07:21:58,660 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 07:22:05,500 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-17 07:22:56,604 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2021-10-17 07:22:57,123 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2021-10-17 07:22:59,286 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 32
+
+2021-10-17 07:22:59,358 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Windows 10]
+
+2021-10-17 07:22:59,358 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-17 07:22:59,358 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2021-10-17 07:22:59,369 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+ND4J CUDA build version: 11.2.142
+
+2021-10-17 07:22:59,371 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+CUDA device 0: [NVIDIA GeForce RTX 2060]; cc: [7.5]; Total memory: [6442450944]
+
+2021-10-17 07:22:59,371 - [INFO] - from org.nd4j.linalg.jcublas.JCublasBackend in main
+                
+Backend build information:
+ MSVC: 192930038
+STD version: 201703L
+CUDA: 11.2.142
+DEFAULT_ENGINE: samediff::ENGINE_CUDA
+HAVE_FLATBUFFERS
+
+2021-10-17 07:23:03,731 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
